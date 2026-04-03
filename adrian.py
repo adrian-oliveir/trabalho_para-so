@@ -18,7 +18,7 @@ if opção == 1:
 elif opção == 2:
      peso = float(input('digite seu peso'))
      agua = peso * 35
-     print('essa é quantidade de água que você deve beber: ', agua)
+     print('essa é a quantidade de água que você deve beber: ', agua)
 
 elif opção == 3:
     tempo = int(input('quantos minutos de exercicios você fez hoje?'))
