@@ -23,7 +23,7 @@ elif opção == 2:
 elif opção == 3:
     tempo = int(input('quantos minutos de exercicios você fez hoje?'))
     calorias = tempo * 5
-    print('esse são as calorias que você perdeu hoje: ', calorias)
+    print('essas são as calorias que você perdeu hoje: ', calorias)
 
 elif opção == 4:
     meta = float(input('digite sua meta em minutos'))
@@ -37,5 +37,5 @@ elif opção == 0:
     print('sair')
 
 else:
-    print('não foi selecionado nem uma das opções')
+    print('não foi selecionado nenhuma das opções')
 
