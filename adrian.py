@@ -1,5 +1,5 @@
 while True:
-    tabela = ["sair", "imc", "água", "calorias", "meta"]
+    tabela = ["sair", "imc", "água", "calorias", "meta", "resumo"]
     for i, tabela in enumerate(tabela):
         print(f"{i} - {tabela}")
 
@@ -39,13 +39,13 @@ while True:
             print('meta não atingida')
 
     elif opção == 5:
-        print('IMC calculado')
-        print('Hidratação calculada')
-        print('Calorias gastas')
-        print('Meta de exercício verificada')
+        print('seu imc é', imc)
+        print('quantidade que você deve beber', agua)
+        print('suas calorias perdidas é:', calorias )
+        print('hoje você fez:', tempo_hoje)
 
     elif opção == 0:
-        print('Obrigado por usar o nosso programa: ')
+        print('Obrigado por usar o nosso programa :)')
         break
 
     else:
