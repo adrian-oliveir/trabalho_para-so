@@ -57,5 +57,11 @@ def calcular_gasto_total(tbm,opcao):
     perca_massa = manter - 500
     return manter, ganhar_massa, perca_massa
 
+# Função para verificar meta diária de exercício (tempo)
 
-
+def verificar_meta_exercicio(meta_minutos, minutos_treinados):
+    if minutos_treinados >= meta_minutos:
+        return "Parabéns! Você atingiu sua meta diária de exercícios."
+    else:
+        falta = meta_minutos - minutos_treinados
+        return f"Ainda faltam {falta} minutos para atingir sua meta."
