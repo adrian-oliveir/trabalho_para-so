@@ -1,2 +1,2 @@
 # trabalho_para-so
-esse aqui é a nossa calculadora de cademia
+Esse aqui é a nossa calculadora de cademia
